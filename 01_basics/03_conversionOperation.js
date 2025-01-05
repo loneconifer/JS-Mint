@@ -56,7 +56,29 @@ let str3 = str1 + str2
 
 // console.log(str3);
 
-console.log("1" + 2);
-console.log(1 + "2");
-console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// Link to study
+// https://tc39.es/ecma262/#sec-abstract-operations
+
+// console.log((3 + 4) * 5 % 3);
+
+// console.log(true);
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2 // Not a good practice
+
+let gameCounter = 80
+// gameCounter++
+++gameCounter
+
+console.log(gameCounter);
+
+// prefix and postfix js mdn
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
